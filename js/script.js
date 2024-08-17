@@ -121,3 +121,7 @@ const resetGame = () => {
 window.onload = () => {
     bgm.play();
 };
+
+document.getElementById('start-button').addEventListener('click', () => {
+    bgm.play(); // Play the BGM after user clicks the start button
+});
